@@ -24,7 +24,7 @@ Portfolio of my best creations
 -  Animations
 
 ## Links
-https://github.com/joaquinlmartin/Portfolio
+- Github: https://github.com/joaquinlmartin/Portfolio
+- Deploy:
 
-### Deploy
 
