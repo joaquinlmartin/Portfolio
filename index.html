@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-bar">
+            <!-- Nav Bar Upper-->
             <a href="/index.html">Circle</a>
             <a href="/index.html">Home</a>
             <a href="/pages/project.html">Projects</a>
@@ -19,16 +20,20 @@
             <button>Contac Us</button>
         </nav>
     </header>
-    <div>
-        <section>
-            <h1>Empower Your Business With Stunning Design!</h1>
-            <h3 style="color: grey">Circle is a digital design and development studio. We design and develop
-                astonishingvwebsites and mobile
-                apps.</h3>
-            <button>Get in touch</button>
-            <button>See our work</button>
-        </section>
+    <main>
+        <article>
+            <section>
+                <!-- Welcome -->
+                <h1>Empower Your Business With Stunning Design!</h1>
+                <h3 style="color: grey">Circle is a digital design and development studio. We design and develop
+                    astonishingvwebsites and mobile
+                    apps.</h3>
+                <button>Get in touch</button>
+                <button>See our work</button>
+            </section>
+        </article>
         <aside>
+            <!-- Aside images -->
             <div class="card-1">
                 <p style="color: grey">Back</p>
                 <p>Choose your card</p>
@@ -42,38 +47,41 @@
                 <img src="/images/Hero 1.png" class="img-home-welcome" alt="image welcome" width="500">
             </div>
         </aside>
-        <section>
-            <img src="/images/Airbnb logo 1.png" alt="airbnb logo">
-            <img src="/images/Google logo 1.png" alt="google logo">
-            <img src="/images/Microsoft logo.png" alt="microsoft logo">
-            <img src="/images/FedEx logo.png" alt="fedex logo">
-            <img src="/images/Amazon logo.png" alt="amazon">
-        </section>
-        <section>
-            <div>
-                <p>Recent Projects</p>
-                <div class="project-1">
-                    <img src="/images/Project 1.png" alt="project 1">
-                    <p class="title-project">Simplify</p>
-                    <p class="content-project">UI Design & App Development</p>
-                    <a href="" class="link-project">Learn more</a>
-                </div>
-                <div class="project-2">
-                    <img src="/images/Project 2.png" alt="project 2">
-                    <p class="title-project">Dashcoin</p>
-                    <p class="content-project">Web Development</p>
-                    <a href="" class="link-project">Learn more</a>
-                </div>
-                <div class="project-3">
-                    <img src="/images/Project 3.png" alt="project 3">
-                    <p class="title-project">Vectorify</p>
-                    <p class="content-project">User Experience Design</p>
-                    <a href="" class="link-project">Learn more</a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div>
+        <article>
+            <section>
+                <!-- Clients -->
+                <img src="/images/Airbnb logo 1.png" alt="airbnb logo">
+                <img src="/images/Google logo 1.png" alt="google logo">
+                <img src="/images/Microsoft logo.png" alt="microsoft logo">
+                <img src="/images/FedEx logo.png" alt="fedex logo">
+                <img src="/images/Amazon logo.png" alt="amazon">
+            </section>
+        </article>
+        <article>
+            <!-- Projects -->
+            <p>Recent Projects</p>
+            <section class="project-1">
+                <img src="/images/Project 1.png" alt="project 1">
+                <p class="title-project">Simplify</p>
+                <p class="content-project">UI Design & App Development</p>
+                <a href="" class="link-project">Learn more</a>
+            </section>
+            <section class="project-2">
+                <img src="/images/Project 2.png" alt="project 2">
+                <p class="title-project">Dashcoin</p>
+                <p class="content-project">Web Development</p>
+                <a href="" class="link-project">Learn more</a>
+            </section>
+            <section class="project-3">
+                <img src="/images/Project 3.png" alt="project 3">
+                <p class="title-project">Vectorify</p>
+                <p class="content-project">User Experience Design</p>
+                <a href="" class="link-project">Learn more</a>
+            </section>
+        </article>
+        <article>
+            <section>
+                <!-- Client Opinion -->
                 <div class="emojis">
                     <!-- Emojis -->
                     <img src="/images/Avatar rubia.png" alt="chica rubia">
@@ -86,9 +94,10 @@
                 <img src="/images/Kristin Watson.png" alt="Kristin Watson">
                 <p>Kristin Watson</p>
                 <p>Booking.com</p>
-            </div>
-        </section>
-        <section>
+            </section>
+        </article>
+        <article>
+            <!-- Services -->
             <div class="services">
                 <h3>Our Services</h3>
                 <section class="service1">
@@ -110,9 +119,10 @@
                     <a href="" style="color: blue">Learn more</a>
                 </section>
             </div>
-        </section>
-        <section>
-            <div class="ask-questions">
+        </article>
+        <article>
+            <!-- Questions -->
+            <section class="ask-questions">
                 <h3>Do you have any questions?</h3>
                 <h5>Let us help you!</h5>
                 <form action="email">
@@ -120,26 +130,27 @@
                     <input type="email" name="email" id="questions-email" placeholder="Enter your email">
                     <button>Subscribe</button>
                 </form>
-            </div>
-        </section>
-        <footer>
-            <nav>
-                <a href="/index.html">Circle</a>
-                <h6>2972 Westheimer Rd. Santa Ana,</h6>
-                <h6>Illinois 85486</h6>
-                <ul>
-                    <li>
-                        <a href="">Team</a>
-                        <a href="">Services</a>
-                        <a href="">About Us</a>
-                        <a href="">Press</a>
-                        <a href="">Projects</a>
-                        <a href="">Privacy Policy</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
-    </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <!-- Nav Bar Bottom -->
+        <nav>
+            <a href="/index.html">Circle</a>
+            <h6>2972 Westheimer Rd. Santa Ana,</h6>
+            <h6>Illinois 85486</h6>
+            <ul>
+                <li>
+                    <a href="">Team</a>
+                    <a href="">Services</a>
+                    <a href="">About Us</a>
+                    <a href="">Press</a>
+                    <a href="">Projects</a>
+                    <a href="">Privacy Policy</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>

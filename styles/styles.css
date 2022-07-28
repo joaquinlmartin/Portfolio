@@ -1,8 +1,25 @@
+/* {
+   color: #072AC8;
+   color: #43D2FF;
+   color: #A2D6F9;
+   color: #D1EDFF;
+   color: #292E47;
+   color: #6B708D;
+   color: #F2F4FC;
+   color: #ECF7FF;
+   color: #FFC600;
+} */
+
+
+.nav-bar {
+   font-family: 'Roboto';
+}
+
 .img-home-welcome {
     width: 400;
     height: 400;
 }
 
 h1 {
-    color:blue
+    color:blue;
 }
