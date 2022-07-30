@@ -1,4 +1,4 @@
-/* {
+/* project colors {
    color: #072AC8;
    color: #43D2FF;
    color: #A2D6F9;
@@ -10,21 +10,35 @@
    color: #FFC600;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap")all;
+
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto';
+    margin: 0;
+	padding: 0;
 }
 
+body {
+    background-color: #f2f4fc;
+    font-size: 16px;
+}
+
+/* Nav Bar */
 
 .nav-bar {
     display: flex;
 	padding-top: 70px;
 	flex-direction: row;
-    gap: 20rem;
+    gap: 30rem;
     margin-left: 5rem;
 }
 
-.nav-bar-container {
-    display: flex;
+.nav-bar a {
+   color: grey;
+}
+
+.nav-bar a:hover {
+    color:  blue;
 }
 
 .nav-bar-menu {
@@ -33,7 +47,7 @@
 }
 
 .frame-contact {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -41,11 +55,12 @@
     height: 52px;
     left: 1120px;
     top: 70px;
-    background-color: #072ACB;
+    background: #072AC8;
 }
 
 .btn-contact {
-    background-color: #072ACB;
+    background: #072AC8;
     text-decoration: none;
     color: #ffffff;
+    border: #072AC8;
 }
