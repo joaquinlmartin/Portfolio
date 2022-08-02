@@ -13,11 +13,9 @@ Portfolio of my best creations
 
 ## Scripts
 ```js
-
 {
     email: String,
 }
-
 ```
 
 ## Backlog
@@ -25,6 +23,5 @@ Portfolio of my best creations
 
 ## Links
 - Github: https://github.com/joaquinlmartin/Portfolio
-- Deploy:
 
 
