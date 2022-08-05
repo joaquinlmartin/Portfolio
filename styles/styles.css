@@ -14,13 +14,11 @@
 
 * {
     font-family: 'Roboto';
-    margin: 0;
-	padding: 0;
 }
 
 body {
     background-color: #f2f4fc;
-    font-size: 16px;
+    font-size:16px;
 }
 
 /* Nav Bar */
@@ -35,11 +33,7 @@ body {
 
 .nav-bar a {
    color: grey;
-   display: flex;
-   padding-top: 70px;
-   flex-direction: row;
-   gap: 30rem;
-   margin-left: 5rem;
+   text-decoration: none;
 }
 
 .nav-bar a:hover {

@@ -23,5 +23,3 @@ Portfolio of my best creations
 
 ## Links
 - Github: https://github.com/joaquinlmartin/Portfolio
-
-
