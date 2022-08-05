@@ -35,6 +35,11 @@ body {
 
 .nav-bar a {
    color: grey;
+   display: flex;
+   padding-top: 70px;
+   flex-direction: row;
+   gap: 30rem;
+   margin-left: 5rem;
 }
 
 .nav-bar a:hover {
