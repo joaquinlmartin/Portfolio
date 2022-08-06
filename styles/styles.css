@@ -1,4 +1,6 @@
-/* project colors {
+/* Main Styles*/
+
+/* Project colors {
    color: #072AC8;
    color: #43D2FF;
    color: #A2D6F9;
@@ -25,10 +27,22 @@ body {
 
 .nav-bar {
     display: flex;
-	padding-top: 70px;
-	flex-direction: row;
-    gap: 30rem;
-    margin-left: 5rem;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3em 2em 1em 2em;
+    align-items: center;
+    max-width: 1164px;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #f2f4fc;
+}
+
+.nav-bar-menu {
+	display: flex;
+    gap: 10rem;
 }
 
 .nav-bar a {
@@ -40,20 +54,12 @@ body {
     color:  blue;
 }
 
-.nav-bar-menu {
-	display: flex;
-    gap: 5rem;
-}
-
 .frame-contact {
-   display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
+    position: right;
     width: 150px;
     height: 52px;
-    left: 1120px;
-    top: 70px;
     background: #072AC8;
 }
 
@@ -63,3 +69,5 @@ body {
     color: #ffffff;
     border: #072AC8;
 }
+
+/* Rest */
