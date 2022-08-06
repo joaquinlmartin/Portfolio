@@ -29,24 +29,19 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 3em 2em 1em 2em;
     align-items: center;
-    max-width: 1164px;
     margin-right: auto;
     margin-left: auto;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    background: #f2f4fc;
+    padding: 3em 2em 1em 2em;
+    max-width: 1160px;
 }
 
 .nav-bar-menu {
 	display: flex;
-    gap: 10rem;
+    gap: 7rem;
 }
 
 .nav-bar a {
-   color: grey;
    text-decoration: none;
 }
 
@@ -60,6 +55,7 @@ body {
     position: right;
     width: 150px;
     height: 52px;
+    border-radius: 0.2rem;
     background: #072AC8;
 }
 
@@ -68,6 +64,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     border: #072AC8;
+    transition: .5s ease-in-out 0s;
 }
 
 /* Rest */
