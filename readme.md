@@ -1,6 +1,6 @@
 # Project's name
 
-*Ironhack-Mid-term*
+*Ironhack Mid-term Project*
 *Portfolio*
 
 ## Description 
