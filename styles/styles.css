@@ -1,5 +1,4 @@
-/* Main Styles*/
-
+/* Styles */
 :root {
   --blue: #072ac8;
   --lightBlue: #a2d6f9;
@@ -16,17 +15,40 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-* {
+/** {
   font-family: 'Roboto';
+}*/
+
+/* Main */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 body {
-  background-color: #f2f4fc;
-  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: var(--grey);
+  background-color: var(--neutralLight);
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 100%;
 }
 
+/* Header */
 /* Nav Bar */
-
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -34,8 +56,11 @@ body {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 40px;
   padding: 3em 2em 1em 2em;
   max-width: 1160px;
+  background-color: var(--neutralLight);
+  color: var(--neutralLight);
 }
 
 .nav-bar-menu {
@@ -43,12 +68,20 @@ body {
   gap: 7rem;
 }
 
+.navbar-logo {
+  /*width: 60px;
+  height: 18px;
+  background-image: url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;*/
+}
+
 .nav-bar a {
   text-decoration: none;
 }
 
 .nav-bar a:hover {
-  color: blue;
+  color: var(--blue);
 }
 
 .frame-contact {
@@ -66,81 +99,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   border: #072AC8;
-}
-
-/*new*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Remove default margin and general*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  color: var(--grey);
-  background-color: var(--neutralLight);
-  font-size: 14px;
-  line-height: 20px;
-  min-height: 100%;
-}
-
-/* ------------------------------ HEADER -------------------------------------*/
-/*Container-Navbar*/
-.container-navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--neutralLight);
-  color: var(--neutralLight);
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-}
-
-.navbar-logo {
-  width: 60px;
-  height: 18px;
-  background-image: url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-.nav-link {
-  color: var(--grey);
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#nav-menu a {
-  text-decoration: none;
-}
-
-#nav-menu a:hover {
-  color: var(--blue);
-}
-
-.btn-primary {
   padding: 10px 30px;
   background-color: var(--blue);
   font-size: 17px;
@@ -149,11 +107,11 @@ body {
   cursor: pointer;
 }
 
-.btn-primary:hover {
+.btn-contact :hover{
   background-color: var(--darkBlue);
 }
 
-/* menu icon */
+/* Menu Icon */
 .menu-icon {
   cursor: pointer;
   padding: 28px 20px;
@@ -190,9 +148,8 @@ body {
   }
 }
 
-/* ------------------------------- HOMEPAGE ------------------------------- */
-
-/*------------------- section hero ------------------------------*/
+/* Home page */
+/* Section Hero */
 .section-hero {
   margin-left: 60px;
   padding: 0px 30px;
@@ -306,7 +263,7 @@ body {
   }
 }
 
-/*---section client ---------*/
+/* Section Client*/
 .client {
   margin-top: 0px;
   padding: 0px 30px;
@@ -340,7 +297,7 @@ body {
   }
 }
 
-/*--------- projects section ----------*/
+/* Project Section*/
 .recent-projects {
   margin-top: 200px;
   padding: 0px 30px;
@@ -397,7 +354,7 @@ body {
   }
 }
 
-/*--- testimonial section ---*/
+/* Testimonial Section */
 .testimonial-section {
   position: relative;
   height: 622px;
@@ -564,7 +521,7 @@ body {
   }
 }
 
-/*---- services section ----*/
+/* Services Section */
 .services-section {
   margin-top: 200px;
   margin-left: 30px;
@@ -654,7 +611,7 @@ body {
   }
 }
 
-/*--- cta-section ------*/
+/* CTA Section*/
 .cta-section {
   width: 1320px;
   height: 500px;
@@ -772,7 +729,7 @@ body {
   }
 }
 
-/*-------- footer ------*/
+/* Footer */
 footer {
   margin-top: 200px;
   padding-bottom: 100px;
@@ -844,7 +801,7 @@ footer {
   }
 }
 
-/*-------------------------------- CONTACT PAGE -----------------------------------*/
+/* Contact Page */
 .contact-section {
   margin-top: 0px;
   padding: 0px 30px;
@@ -953,7 +910,7 @@ footer {
   }
 }
 
-/*------------------ PROJECT PAGE -----------------*/
+/* Project Page */
 .project-section {
   width: 100%;
   left: 0px;
@@ -989,7 +946,7 @@ footer {
   margin-top: 0;
 }
 
-/*------------------------ RESPONSIVE MOBILE --------------------------------------*/
+/* Responsive Mobile */
 @media (max-width: 415px) {
   .project-section {
     margin: 30px;
