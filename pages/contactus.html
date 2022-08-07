@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Us</title>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
@@ -13,19 +14,79 @@
     <header>
         <nav class="nav-bar">
             <!-- Nav Bar Upper-->
-            <a href="/index.html"><img src="/assets/images/zey/Circle.svg" alt="circle" class="circle-logo"></a>
-            <div class="nav-bar-container">
-                <div class="nav-bar-menu">
-                    <a href="/index.html">Home</a>
-                    <a href="/pages/project.html">Projects</a>
-                    <a href="/pages/contactus.html">Services</a>
-                </div>
-                <div class="frame-contact">
-                    <button class="btn-contact">Contac Us</button>
-                </div>
+            <a href="/index.html" class="active"><img src="/assets/images/zey/Circle.svg" alt="circle"
+                    class="circle-logo"></a>
+            <div class="nav-bar-menu">
+                <a href="/index.html" style="color: grey">Home</a>
+                <a href="/pages/projects.html" style="color: grey">Projects</a>
+                <a href="/pages/contactus.html" style="color: grey">Services</a>
+            </div>
+            <div class="frame-contact">
+                <button class="btn-contact"><a href="/pages/contactus.html" style="color: white">Contac Us</a></button>
             </div>
         </nav>
     </header>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h1 class="contact-heading">Contact us</h1>
+            <div class="contact-form">
+                <form class="form-contact-form" action="" method="POST">
+                    <!-----<div
+                class="form-done"
+                tabindex="-1"
+                role="region"
+                aria-bael="email Form succes"
+              >
+                <div>Thank you! Your submission has been received.</div>
+              </div>
+              <div
+                class="form-failed"
+                tabindex="-1"
+                role="region"
+                aria-bael="email Form succes"
+              >
+                <div>Oops, smth went wrong!</div>
+              </div>-->
+                    <label class="label-contact-name" for="name">Full Name*</label>
+                    <input class="input-textfield" placeholder="Enter your full name" type="text" name="name"
+                        id="name" />
+                    <label class="label-contact-name" for="email">Email</label>
+                    <input class="input-textfield" placeholder="Enter your email" type="email" name="email"
+                        id="email" />
+                    <label class="label-contact-name" for="phone">Phone</label>
+                    <input class="input-textfield" placeholder="Enter your phone" type="number" name="phone"
+                        id="phone" />
+
+                    <label class="label-contact-name" for="message">Message*</label>
+                    <textarea class="contact-textarea" name="message" id="message"
+                        placeholder="Write your message here..."></textarea>
+                    <input class="btn-primary-contact-btn" type="submit" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-content-logo"></div>
+                <div class="footer-address">2972 Westheimer Rd. Santa Ana,
+                    Illinois 85486
+                </div>
+            </div>
+            <div class="footer-links">
+                <a class="footer-link" href="/index.html">Team</a>
+                <a class="footer-link" href="/pages/contactus.html">Services</a>
+                <a class="footer-link" href="/index.html">About Us</a>
+                <a class="footer-link" href="#">Press</a>
+                <a class="footer-link" href="/pages/projects.html">Projects</a>
+                <a class="footer-link" href="#">Privacy Policy</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script type="Module" src="/scripts/main.js"></script>
 </body>
 
 </html>

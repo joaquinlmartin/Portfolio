@@ -1,6 +1,6 @@
 # Project's name
 
-*Ironhack-Mid-term*
+*Ironhack Mid-term Project*
 *Portfolio*
 
 ## Description 
@@ -23,5 +23,3 @@ Portfolio of my best creations
 
 ## Links
 - Github: https://github.com/joaquinlmartin/Portfolio
-
-
