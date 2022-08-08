@@ -60,7 +60,7 @@ body {
   color: var(--neutralLight);
 }
 
-.nav-bar-menu {
+.nav-menu {
   display: flex;
   gap: 7rem;
 }
@@ -83,7 +83,7 @@ body {
   color: var(--blue);
 }
 
-.frame-contact {
+.menu-button {
   display: flex;
   justify-content: center;
   position: right;
@@ -97,7 +97,7 @@ body {
   color: var(--white);
 }
 
-.btn-contact {
+.btn-primary {
   background: #072AC8;
   text-decoration: none;
   color: #ffffff;
@@ -110,7 +110,7 @@ body {
   cursor: pointer;
 }
 
-.btn-contact :hover{
+.btn-primary :hover{
   background-color: var(--darkBlue);
 }
 
@@ -146,7 +146,7 @@ body {
     margin: 20px;
   }
 
-  .container-navbar {
+  .nav-bar {
     flex-direction: column;
   }
 }
