@@ -12,6 +12,7 @@ Portfolio of my best creations
 - Navigate between pages
 
 ## Scripts
+
 ```js
 {
     email: String,
@@ -19,7 +20,9 @@ Portfolio of my best creations
 ```
 
 ## Backlog
+
 -  Animations
 
 ## Links
+
 - Github: https://github.com/joaquinlmartin/Portfolio
