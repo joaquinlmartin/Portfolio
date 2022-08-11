@@ -10,14 +10,6 @@ Circle Project
 
 - Navigate between pages
 
-## Scripts
-
-```js
-{
-    email: String,
-}
-```
-
 ## Backlog
 
 -  Animations
