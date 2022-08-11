@@ -1,11 +1,10 @@
 # Project's name
 
 *Ironhack Mid-term Project*
-*Portfolio*
 
 ## Description
 
-Portfolio of my best creations
+Circle Project
 
 ## User Actions
 
@@ -26,3 +25,4 @@ Portfolio of my best creations
 ## Links
 
 - Github: https://github.com/joaquinlmartin/Portfolio
+- Deploy: https://phenomenal-creponne-be6662.netlify.app/
