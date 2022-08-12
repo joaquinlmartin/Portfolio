@@ -1,10 +1,11 @@
 # Project's name
 
 *Ironhack Mid-term Project*
+*Portfolio*
 
 ## Description
 
-Circle Project
+Portfolio of my best programming creations
 
 ## User Actions
 
