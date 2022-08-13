@@ -211,16 +211,19 @@ body {
 .hero-image {
   position: relative;
   display: block;
+  width: 45%;
+  height: 45%;
 }
 
 .hero-image-card {
   max-width: 100%;
+  border-radius: 3rem;
 }
 
 .card1 {
   position: absolute;
-  left: -19%;
-  top: 0%;
+  left: -20%;
+  top: -10%;
   right: auto;
   bottom: auto;
   max-width: 250px;
@@ -231,8 +234,8 @@ body {
   left: auto;
   top: auto;
   right: -20%;
-  bottom: -15%;
-  max-width: 250px;
+  bottom: -10%;
+  max-width: 200px;
 }
 
 @media (max-width: 415px) {
